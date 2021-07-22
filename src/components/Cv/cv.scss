@@ -1,0 +1,266 @@
+@use 'src/styles/vars' as var;
+// LES TYPOS
+.t1 {
+  font-size: var.$font3;
+  color: var.$color2;
+  text-align: left;
+  margin: 1rem 0 1rem 0;
+}
+
+.t2 {
+  font-size: var.$font2;
+  font-weight: bold;
+  color: var.$color1;
+  text-align: left;
+}
+
+.t3 {
+  font-size: var.$font2;
+  color: var.$color1;
+  text-align: justify;
+  margin: 0.8rem 0 0.8rem 0;
+  line-height: 1.3rem;
+}
+
+.t4 {
+  font-size: var.$font2;
+  font-style: italic;
+  color: var.$color1;
+  text-align: justify;
+  margin: 0.8rem 0 0.8rem 0;
+  line-height: 1.5rem;
+  
+  &__lien{
+    font-size: var.$font1;
+    text-decoration: underline;
+    color: var.$color2;
+  }
+}
+
+.t5 {
+  font-size: var.$font3;
+  color: var.$color2;
+  text-align: left;
+  margin: 0.7rem 0;
+}
+
+.t6 {
+  font-size: var.$font1;
+  color: var.$color1;
+  text-align: left;
+  margin: 0.7rem 0 1.5rem 0;
+  font-style: italic;
+  
+  &__lien{
+    font-size: var.$font1;
+    text-decoration: underline;
+    color: var.$color2;
+  }
+}
+
+.soulignage{
+  border-bottom: 1px solid var.$color2;
+}
+
+.lien{
+  font-size: var.$font3;
+  text-decoration: underline;
+}
+
+// LES BLOCS
+.mainCv {
+  padding-top: 1rem;
+  background-color: #5a5a5a;
+}
+.blocPage {
+  width: 70%;
+  margin: auto;
+  box-shadow: 0.5rem 0.5rem 0.5rem #5a5a5a;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  font-family: 'roboto';
+}
+
+.partieGauche {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 2rem;
+}
+
+.partieDroite {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  justify-content: start;
+  background-color: var.$color4;
+  width: 55%;
+  padding: 2rem;
+}
+
+.liste {
+  display: flex;
+  flex-direction: row;
+
+  &__titre {
+    font-size: var.$font2;
+    font-weight: bold;
+    color: var.$color1;
+    margin: 0.5rem 0;
+    width: 100%;
+    justify-content: flex-between;
+  }
+
+  &__col {
+    width: 50%;
+  }
+
+  &__puce {
+    list-style: circle solid;
+    line-height: 1.8rem;
+  }
+
+  &__puce2 {
+    list-style: circle;
+    line-height: 1.8rem;
+    margin-left: 2rem;
+  }
+
+  &__puce2Lien{
+    list-style: circle;
+    line-height: 1.8rem;
+    margin-left: 2rem;
+    font-size: var.$font2;
+    text-decoration: underline;
+    color: var.$color2;
+  }
+
+  &__lien {
+    width: 1rem;
+    height: 1rem;
+    border: none;
+    background-color: transparent;
+    margin:0rem;
+    padding:0rem;
+    color: var.$color3;
+  }
+  
+  &__lien:hover {
+    transform: scale(1.5);
+  }
+}
+
+.article{
+  width: 100%;
+}
+
+/* titre avec action */
+.titreLien {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-between;
+  width: 100%;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+  border-bottom: 1px solid var.$color2;
+    
+  &__titre {
+    font-size: var.$font3;
+    color: var.$color2;
+    text-align: left;
+    flex-grow: 1;
+  }
+
+  &__texteLien {
+    font-size: var.$font1;
+    color: var.$color3;
+    cursor: pointer;
+    text-align: right;
+  }
+
+  &__texteLien:hover {
+    transform: scale(1.2);
+    font-weight: bold;
+  }
+
+  &__lien {
+    width: 1rem;
+    height: 1rem;
+    border: none;
+    background-color: transparent;
+    margin:0rem;
+    padding:0rem;
+    color: var.$color3;
+  }
+
+  &__lien:hover {
+    transform: scale(1.5);
+    font-weight: bold;
+  }
+}
+
+/* Présentation */
+.presentationT1 {
+  font-size: var.$font5;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 1rem 0px;
+}
+
+.presentationT2 {
+  font-size: var.$font2;
+  color: black;
+  text-align: center;
+  margin: 10px 0px 20px 0px;
+}
+
+.presentationImg {
+  text-align: center;
+}
+
+.contactImg {
+  margin: 0 1rem 0 0;
+  width: 1rem;
+  height: 1rem;
+  color: var.$color3;
+}
+
+/* Expériences */
+.experienceTitre {
+  font-size: var.$font3;
+  color: var.$color2;
+  text-align: center;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.periode {
+  background: url("src/components/Cv/images/trait.png") repeat-x center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  //margin-top: 2rem;
+}
+
+.periode_date {
+  border-radius: 0.5rem;
+  background-color: var.$color2;
+  width: 6rem;
+  font-size: var.$font2;
+  font-weight: bold;
+  color: white;
+  padding: 0.6rem 1rem;
+}
+
+.periode_duree {
+  font-size: var.$font2;
+  color: var.$color1;
+  text-align: center;
+  margin: auto;
+  background-color: var.$color4;
+  border: 5px solid var.$color4;
+  flex-shrink: 1;
+}

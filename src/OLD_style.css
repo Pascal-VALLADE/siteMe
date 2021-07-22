@@ -1,0 +1,345 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "open_sansregular";
+  src: url("fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot");
+  src: url("fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff2") format("woff2"), url("fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff") format("woff"), url("fonts/opensans_regular_macroman/OpenSans-Regular-webfont.ttf") format("truetype"), url("fonts/opensans_regular_macroman/OpenSans-Regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/******************************/
+/* Fonctions primaires        */
+/******************************/
+h1 {
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  color: #5b9bd5;
+  text-align: left;
+  overflow: auto;
+  margin: 20px 0px 10px 0px;
+  border-bottom: 1px solid #5b9bd5;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  text-align: left;
+  overflow: auto;
+  margin: 0px 0px 5px 5px;
+  padding: 0px 0px 0px 0px;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  text-align: justify;
+  overflow: auto;
+  margin: 5px 0px 5px 0px;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+  color: black;
+  text-align: justify;
+  overflow: auto;
+  margin: 5px 0px 5px 0px;
+}
+
+h5 {
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  color: #5b9bd5;
+  text-align: left;
+  overflow: auto;
+  margin: 0px 0px 5px 5px;
+  padding: 0px 0px 0px 0px;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  text-align: left;
+  overflow: auto;
+  padding: 2px 0px 2px 2px;
+  margin: 10px 0px 20px 0px;
+  background-color: #dadada;
+}
+
+.puce_fleche {
+  list-style-image: url("../images/puce_1.png");
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  text-align: justify;
+  overflow: hidden;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 25px;
+}
+
+.liste_double {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  justify-content: space-between;
+}
+
+/* icone de telechargement */
+.ico_telecharger {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  justify-content: flex-start;
+}
+
+.ico_telecharger_large {
+  flex-grow: 1;
+}
+
+.ico_telecharger_petit {
+  flex-shrink: 1;
+}
+
+article {
+  transform: scale(1);
+  transition: transform 500ms ease-in-out;
+}
+article:hover {
+  z-index: 999;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid #9c9c9c;
+  box-shadow: 3px 3px 3px 3px #9c9c9c;
+  transform: scale(1.2);
+}
+
+/******************/
+/* PAGE ENTIERE   */
+/* CORPS + FOOTER */
+/******************/
+/***********/
+/* body    */
+/***********/
+#bloc_page {
+  width: 1000px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #b6b6b8;
+  box-shadow: 10px 10px 10px #6e6e6e;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  justify-content: flex-start;
+}
+
+body {
+  font-family: "open_sansregular", sans-serif;
+  background-color: #727272;
+}
+
+/********************/
+/* Partie de gauche */
+/********************/
+.partie_gauche {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  justify-content: start;
+  width: 40%;
+}
+
+/* Présentation */
+#presentation_t1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 5px 0px;
+}
+
+#presentation_t2 {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  text-align: center;
+  margin: 10px 0px 20px 0px;
+}
+
+#presentation_img {
+  text-align: center;
+}
+
+/* Contact */
+.contact_img {
+  margin: 0px 10px 0px 0px;
+}
+
+#contact_retrait {
+  margin: 0px 0px 0px 30px;
+}
+
+/* Personnalite */
+/* Compétences */
+.competence {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  justify-content: space-between;
+}
+
+/********************/
+/* SEPARATEUR       */
+/********************/
+#separateur {
+  background: url("../images/trait_v.png") repeat-y center;
+  color: white;
+  width: 5%;
+}
+
+/********************/
+/* Partie de droite */
+/********************/
+.partie_droite {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  justify-content: start;
+  width: 55%;
+}
+
+.experience_titre {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  text-align: center;
+  margin: 30px 0px 30px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.periode {
+  background: url("../images/trait.png") repeat-x center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  /*min-width: 600px;*/
+}
+
+.periode_date {
+  border: 5px solid white;
+  border-radius: 10px;
+  background-color: #5b9bd5;
+  width: 80px;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  margin: 0px 0px 0px 0px;
+  overflow: hidden;
+  flex-shrink: 1;
+}
+
+.periode_duree {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  color: #6b6b6b;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  margin: 0px 0px 0px 0px;
+  overflow: hidden;
+  background-color: white;
+  border: 5px solid white;
+  flex-shrink: 1;
+}
+
+/********************/
+/* Pied de page     */
+/********************/
+#telecharger_cv {
+  /* BOUTON */
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  min-height: 29px;
+  max-height: 29px;
+  width: 150px;
+  max-width: 200px;
+  background: url("../images/fond_degraderouge.png") repeat-x;
+  border-radius: 5px 5px 5px 5px;
+  /* TEXTE */
+  font-size: 11px;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  /* ALIGNEMENT */
+  display: block;
+  min-width: 200px;
+  height: 25px;
+  line-height: 25px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+/******************************/
+/* Pour SMARTPHONE            */
+/******************************/
+/* Pour ecrans résolution max de 600 / normalement mettre 480*/
+@media all and (max-width: 600px) {
+  .liste_double {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    justify-content: space-between;
+  }
+
+  #bloc_page {
+    width: auto;
+    margin: auto;
+    border: 1px solid #b6b6b8;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .partie_gauche {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    justify-content: start;
+    width: auto;
+  }
+
+  .partie_droite {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    justify-content: start;
+    width: auto;
+  }
+
+  #separateur {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
