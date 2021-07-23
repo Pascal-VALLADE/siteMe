@@ -5,8 +5,8 @@ import { Switch, Route } from 'react-router-dom';
 import Cv from 'src/components/Cv';
 import Home from 'src/components/Home';
 import './app.scss';
-import 'src/components/Cv/cv.scss';
-import 'src/components/Home/home.scss';
+// import 'src/components/Cv/cv.scss';
+// import 'src/components/Home/home.scss';
 
 const App = () => {
 

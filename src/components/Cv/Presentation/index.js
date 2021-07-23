@@ -8,10 +8,9 @@ const Presentation = () => (
     <p className="presentationT1">Pascal VALLADE</p>
     <p className="presentationT2">Né le : 28 mai 1971 (50 ans)</p>
     <p className="t4">«J’œuvre dans l’objectif d’accompagner les utilisateurs en leur apportant des services de qualité dans une relation apaisée. Ecouter, analyser et accompagner : des savoir-faire qui garantissent ma réussite. Désormais je mets en pratique cette orientation professionnelle dans la conception des outils web.»</p>
-    {/* <button> */}
-    <p><a className="titreLien__texteLien" href="images/CV_Pascal_VALLADE.pdf" target="_blank">Télécharger mon C.V. au format PDF</a></p>
 
-    {/* </button> */}
+    <a className="titreLien__texteLien" href="./CV_Pascal_VALLADE.pdf" download="CV_Pascal_VALLADE.pdf">Télécharger mon cv au format PDF...</a>
+
 
   </div>
 );

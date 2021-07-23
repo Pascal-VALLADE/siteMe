@@ -39,7 +39,7 @@ const Home = () => (
             MAIS QUI SUIS-JE ?
           </p>
           <p className="resume">
-            Vous souhaitez en apprendre davantage sur ma personnalié ? Je vous propose alors de consulter ce graph intéractif.
+            Vous souhaitez en apprendre davantage sur ma personnalié ? Je vous propose alors de consulter ce graphe intéractif.
           </p>
           <img className="image" src={personnalite} alt="Qui suis-je ?" />
         </a>
@@ -49,7 +49,7 @@ const Home = () => (
             PROJET : POKER-TOOL
           </p>
           <p className="resume">
-            Poker-tool est une application conçue durant ma formation de "Déloppeur Web Fullstack". Elle s'adresse à tous ceux recherchant un outils afin de gérer un tournoi entre amis.
+            Poker-tool est une application conçue durant ma formation de "Déloppeur Web Fullstack". Elle s'adresse à tous ceux recherchant un outil afin de gérer un tournoi entre amis.
           </p>
           <img className="image" src={poker} alt="PROJET : POKER-TOOL" />
         </a>

@@ -7,13 +7,11 @@ const Personnalite = () => (
     <div className="titreLien">
       <p className="titreLien__titre">Personnalité</p>
       <p>
-        <button
-          type="button"
+        <a
           className="titreLien__texteLien"
-          onClick="../images/CV_Pascal_VALLADE.pdf"
           target="_blank"
         >En savoir plus...
-        </button>
+        </a>
       </p>
     </div>
 
