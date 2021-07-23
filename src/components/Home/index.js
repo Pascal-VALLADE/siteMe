@@ -1,8 +1,8 @@
 import React from 'react';
 import 'src/components/Home/home.scss';
 import pascal from 'src/components/Home/images/pascal.png';
-import personnalite from 'src/components/Home/images/personnalite.PNG';
-import poker from 'src/components/Home/images/poker.PNG';
+import personnalite from 'src/components/Home/images/personnalite.png';
+import poker from 'src/components/Home/images/poker.png';
 import parcours from 'src/components/Home/images/parcours.png';
 
 const Home = () => (

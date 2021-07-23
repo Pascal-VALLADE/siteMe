@@ -3,24 +3,28 @@ import 'src/components/Cv/cv.scss';
 
 const Experience = () => (
   <div>
-    <div className="acticle">
     <p className="experienceTitre">EXPERIENCES PROFESSIONNELLES</p>
+    <div className="acticle">
       <div className="periode">
         <div className="periode_date">09/1994</div>
-        <div className="periode_duree">( 5 ans )</div>
+        <div className="trait">
+          <div className="periode_duree">( 5 ans )</div>
+        </div>
         <div className="periode_date">08/1999</div>
       </div>
       <p className="t5">Technicien support logiciels</p>
       <p className="t6">
-        <a className="t6__lien" href="https://www.berger-levrault.com/fr/" target="_blank">BERGER-LEVRAULT</a>
-        <span> - EDITEUR DE LOGICIELS POUR COLLECTIVITÉS LOCALES - TOULOUSE</span>
+        <a className="t4__lien" href="https://www.berger-levrault.com/fr/" target="_blank" rel="noreferrer">BERGER-LEVRAULT</a>
+        <span className="t4"> - EDITEUR DE LOGICIELS POUR COLLECTIVITÉS LOCALES - TOULOUSE</span>
       </p>
     </div>
 
     <div className="acticle">
       <div className="periode">
         <div className="periode_date">09/1999</div>
-        <div className="periode_duree">( 3 ans )</div>
+        <div className="trait">
+          <div className="periode_duree">( 3 ans )</div>
+        </div>
         <div className="periode_date">06/2002</div>
       </div>
       <p className="t5">Consultant / Formateur indépendant</p>
@@ -30,25 +34,15 @@ const Experience = () => (
     <div className="acticle">
       <div className="periode">
         <div className="periode_date">07/2002</div>
-        <div className="periode_duree">( 6 ans )</div>
+        <div className="trait">
+          <div className="periode_duree">( 6 ans )</div>
+        </div>
         <div className="periode_date">08/2008</div>
       </div>
       <p className="t5">Responsable service logiciels</p>
       <div className="liste">
         <p className="liste__titre">Optimiser la mise en œuvre, et l’assistance des logiciels</p>
-        {/* <button
-          type="button"
-          className="liste__lien"
-        >
-          <svg
-            viewBox="0 0 448 512"
-          >
-            <path
-              fill="currentColor"
-              d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34zm192-34l-136-136c-9.4-9.4-24.6-9.4-33.9 0l-22.6 22.6c-9.4 9.4-9.4 24.6 0 33.9l96.4 96.4-96.4 96.4c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l136-136c9.4-9.2 9.4-24.4 0-33.8z"
-            />
-          </svg>
-        </button> */}
+
       </div>
       <li className="liste__puce">Gestion de l’assistance, des formations et des déploiements</li>
       <li className="liste__puce">Gestion de l’amélioration continue du service (9 collaborateurs)</li>
@@ -59,19 +53,7 @@ const Experience = () => (
       <p className="t5">Chef de projets nouvelle offre</p>
       <div className="liste">
         <p className="liste__titre">Répondre aux nouveaux besoins logiciels émergents</p>
-        {/* <button
-          type="button"
-          className="liste__lien"
-        >
-          <svg
-            viewBox="0 0 448 512"
-          >
-            <path
-              fill="currentColor"
-              d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34zm192-34l-136-136c-9.4-9.4-24.6-9.4-33.9 0l-22.6 22.6c-9.4 9.4-9.4 24.6 0 33.9l96.4 96.4-96.4 96.4c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l136-136c9.4-9.2 9.4-24.4 0-33.8z"
-            />
-          </svg>
-        </button> */}
+
       </div>
       <div>
         <div className="liste">
@@ -85,34 +67,24 @@ const Experience = () => (
           </div>
         </div>
       </div>
-        <p className="t6">
-          <a className="t6__lien" href="https://www.soluris.fr/" target="_blank">SOLURIS</a>
-          <span> - SYNDICAT INFORMATIQUE POUR COLLECTIVITÉS LOCALES - SAINTES</span>
-        </p>
+      <p className="t6">
+        <a className="t4__lien" href="https://www.soluris.fr/" target="_blank" rel="noreferrer">SOLURIS</a>
+        <span className="t4"> - SYNDICAT INFORMATIQUE POUR COLLECTIVITÉS LOCALES - SAINTES</span>
+      </p>
     </div>
 
     <div className="acticle">
       <div className="periode">
         <div className="periode_date">10/2008</div>
-        <div className="periode_duree">( 8 ans )</div>
+        <div className="trait">
+          <div className="periode_duree">( 7 ans )</div>
+        </div>
         <div className="periode_date">11/2015</div>
       </div>
       <p className="t5">Chef de projets nouvelle gamme</p>
       <div className="liste">
         <p className="liste__titre">Concevoir une gamme logicielle pour la gestion des structures d‘accueil de l’enfant (centres de loisirs, crèches, etc.)</p>
-        {/* <button
-          type="button"
-          className="liste__lien"
-        >
-          <svg
-            viewBox="0 0 448 512"
-          >
-            <path
-              fill="currentColor"
-              d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34zm192-34l-136-136c-9.4-9.4-24.6-9.4-33.9 0l-22.6 22.6c-9.4 9.4-9.4 24.6 0 33.9l96.4 96.4-96.4 96.4c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l136-136c9.4-9.2 9.4-24.4 0-33.8z"
-            />
-          </svg>
-        </button> */}
+
       </div>
       <li className="liste__puce">Création et animation d’un panel de structures pilotes</li>
       <li className="liste__puce">Rédaction du cahier des charges et suivi des développements</li>
@@ -121,19 +93,7 @@ const Experience = () => (
       <p className="t5">Responsable du service clients</p>
       <div className="liste">
         <p className="liste__titre">Déployer la solution logicielle - 180 sites, 1200 utilisateurs.</p>
-        {/* <button
-          type="button"
-          className="liste__lien"
-        >
-          <svg
-            viewBox="0 0 448 512"
-          >
-            <path
-              fill="currentColor"
-              d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34zm192-34l-136-136c-9.4-9.4-24.6-9.4-33.9 0l-22.6 22.6c-9.4 9.4-9.4 24.6 0 33.9l96.4 96.4-96.4 96.4c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l136-136c9.4-9.2 9.4-24.4 0-33.8z"
-            />
-          </svg>
-        </button> */}
+
       </div>
       <div className="liste">
         <div className="liste__col">
@@ -147,32 +107,22 @@ const Experience = () => (
       </div>
     </div>
     <p className="t6">
-      <a className="t6__lien" href="https://www.innovortex.fr/" target="_blank">INNOVORTEX</a>
-      <span> - EDITEUR DE SOLUTIONS WEB - LA ROCHELLE</span>
+      <a className="t4__lien" href="https://www.innovortex.fr/" target="_blank" rel="noreferrer">INNOVORTEX</a>
+      <span className="t4"> - EDITEUR DE SOLUTIONS WEB - LA ROCHELLE</span>
     </p>
     
     <div className="acticle">
       <div className="periode">
         <div className="periode_date">03/2017</div>
-        <div className="periode_duree">( 2 ans et 6 mois )</div>
+        <div className="trait">
+          <div className="periode_dureeLongue">( 2 ans et 6 mois )</div>
+        </div>
         <div className="periode_date">07/2019</div>
       </div>
       <p className="t5">Expert fonctionnel - Billetterie et contrôle d’accès</p>
       <div className="liste">
         <p className="liste__titre">Déployer la solution logicielle</p>
-        {/* <button
-          type="button"
-          className="liste__lien"
-        >
-          <svg
-            viewBox="0 0 448 512"
-          >
-            <path
-              fill="currentColor"
-              d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34zm192-34l-136-136c-9.4-9.4-24.6-9.4-33.9 0l-22.6 22.6c-9.4 9.4-9.4 24.6 0 33.9l96.4 96.4-96.4 96.4c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l136-136c9.4-9.2 9.4-24.4 0-33.8z"
-            />
-          </svg>
-        </button> */}
+ 
       </div>
       <div className="liste">
         <div className="liste__col">
@@ -185,33 +135,23 @@ const Experience = () => (
         </div>
       </div>
       <p className="t6">
-        <a className="t6__lien" href="https://corporate.vivaticket.com/fr" target="_blank">VIVATICKET</a>
-        <span> - EDITEUR DE LOGICIELS - POITIERS</span>
+        <a className="t4__lien" href="https://corporate.vivaticket.com/fr" target="_blank" rel="noreferrer">VIVATICKET</a>
+        <span className="t4"> - EDITEUR DE LOGICIELS - POITIERS</span>
       </p>
     </div>
 
     <div className="acticle">
       <div className="periode">
         <div className="periode_date">08/2019</div>
-        <div className="periode_duree">( 2 ans )</div>
+        <div className="trait">
+          <div className="periode_duree">( 2 ans )</div>
+        </div>
         <div className="periode_date">. . . .</div>
       </div>
       <p className="t5">Consultant fonctionnel - Grand Angle Finances</p>
       <div className="liste">
         <p className="liste__titre">Déployer la solution logicielle</p>
-        {/* <button
-          type="button"
-          className="liste__lien"
-        >
-          <svg
-            viewBox="0 0 448 512"
-          >
-            <path
-              fill="currentColor"
-              d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34zm192-34l-136-136c-9.4-9.4-24.6-9.4-33.9 0l-22.6 22.6c-9.4 9.4-9.4 24.6 0 33.9l96.4 96.4-96.4 96.4c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l136-136c9.4-9.2 9.4-24.4 0-33.8z"
-            />
-          </svg>
-        </button> */}
+
       </div>
       <div className="liste">
         <div className="liste__col">
@@ -224,8 +164,8 @@ const Experience = () => (
         </div>
       </div>
       <p className="t6">
-        <a className="t6__lien" href="https://www.cgi.fr/fr-fr/secteur-public/grand-angle" target="_blank">C.G.I.</a>
-        <span> - CONSEILS ET SERVICES NUMERIQUE - BORDEAUX</span>
+        <a className="t4__lien" href="https://www.cgi.fr/fr-fr/secteur-public/grand-angle" target="_blank" rel="noreferrer">C.G.I.</a>
+        <span className="t4"> - CONSEILS ET SERVICES NUMERIQUE - BORDEAUX</span>
       </p>
     </div>
 
