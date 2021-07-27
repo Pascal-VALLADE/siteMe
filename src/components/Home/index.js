@@ -4,6 +4,7 @@ import pascal from 'src/components/Home/images/pascal.png';
 import personnalite from 'src/components/Home/images/personnalite.png';
 import poker from 'src/components/Home/images/poker.png';
 import parcours from 'src/components/Home/images/parcours.png';
+import Cv from 'src/components/Cv';
 
 const Home = () => (
   <div className="mainHome">
@@ -29,7 +30,7 @@ const Home = () => (
             MON PARCOURS PROFESSIONNEL
           </p>
           <p className="resume">
-            Aprés une belle carrière dans l'expertise fonctionnelle applicative, je me consacre désormais au dévellopement web. Mes motivations restent identiques : porposer un service de qualité aux utilisateurs.
+            Aprés une belle carrière dans l'expertise fonctionnelle applicative, je me consacre désormais au développement web. Mes motivations restent identiques : proposer un service de qualité aux utilisateurs.
           </p>
           <img className="image" src={parcours} alt="MON PARCOURS PROFESSIONNEL" />
         </a>
@@ -39,7 +40,7 @@ const Home = () => (
             MAIS QUI SUIS-JE ?
           </p>
           <p className="resume">
-            Vous souhaitez en apprendre davantage sur ma personnalié ? Je vous propose alors de consulter ce graphe intéractif.
+            Vous souhaitez en apprendre davantage sur ma personnalié ? Je vous invite à consulter ce graphe intéractif.
           </p>
           <img className="image" src={personnalite} alt="Qui suis-je ?" />
         </a>
