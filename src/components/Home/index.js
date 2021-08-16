@@ -4,7 +4,7 @@ import pascal from 'src/components/Home/images/pascal.png';
 import personnalite from 'src/assets/images/personnalite.png';
 import poker from 'src/components/Home/images/poker.png';
 import parcours from 'src/components/Home/images/parcours.png';
-
+// test
 const Home = () => (
   <div className="mainHome">
     <div className="mainPresentation">
