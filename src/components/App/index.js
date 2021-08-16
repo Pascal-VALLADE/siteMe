@@ -5,7 +5,6 @@ import Home from 'src/components/Home';
 import './app.scss';
 
 const App = () => {
-
   return (
     <div>
       <Switch>

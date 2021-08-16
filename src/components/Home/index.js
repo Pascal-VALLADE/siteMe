@@ -1,10 +1,9 @@
 import React from 'react';
 import 'src/components/Home/home.scss';
 import pascal from 'src/components/Home/images/pascal.png';
-import personnalite from 'src/components/Home/images/personnalite.png';
+import personnalite from 'src/assets/images/personnalite.png';
 import poker from 'src/components/Home/images/poker.png';
 import parcours from 'src/components/Home/images/parcours.png';
-import Cv from 'src/components/Cv';
 
 const Home = () => (
   <div className="mainHome">
