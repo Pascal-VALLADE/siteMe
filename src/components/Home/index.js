@@ -34,7 +34,7 @@ const Home = () => (
           <img className="image" src={parcours} alt="MON PARCOURS PROFESSIONNEL" />
         </a>
 
-        <a className="btn" href="/cv" target="_blank">
+        <a className="btn" href="https://siteme-personnalite.herokuapp.com/" target="_blank">
           <p className="titre">
             MAIS QUI SUIS-JE ?
           </p>

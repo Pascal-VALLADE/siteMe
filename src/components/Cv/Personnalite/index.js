@@ -8,6 +8,7 @@ const Personnalite = () => (
       <p className="titreLien__titre">Personnalité</p>
       <p>
         <a
+          href="https://siteme-personnalite.herokuapp.com/"
           className="titreLien__texteLien"
           target="_blank"
         >En savoir plus...
