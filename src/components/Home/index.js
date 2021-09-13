@@ -30,7 +30,7 @@ const Home = () => (
       </div>
 
       <div className="containerBtn">
-        <section className="btn" href="/cv" target="_blank">
+        <a className="btn" href="/cv" target="_blank">
           <p className="titre">
             MON PARCOURS PROFESSIONNEL
           </p>
@@ -43,9 +43,9 @@ const Home = () => (
             <img className="btn__refTech__image1" src={parcours} alt="MON PARCOURS PROFESSIONNEL" />
           </div>
           {/* <img className="image" src={parcours} alt="MON PARCOURS PROFESSIONNEL" /> */}
-        </section>
+        </a>
 
-        <section className="btn" href="https://pv-personnality.herokuapp.com/" target="_blank">
+        <a className="btn" href="https://pv-personnality.herokuapp.com/" target="_blank">
           <p className="titre">
             MAIS QUI SUIS-JE ?
           </p>
@@ -57,9 +57,9 @@ const Home = () => (
             <img className="btn__refTech__image2" src={css} alt="logo_css" />
             <img className="btn__refTech__image1" src={personnalite} alt="Qui suis-je ?" />
           </div>
-        </section>
+        </a>
 
-        <section className="btn" href="https://pokertool.herokuapp.com/" target="_blank">
+        <a className="btn" href="https://pokertool.herokuapp.com/" target="_blank">
           <p className="titre">
             PROJET : POKER-TOOL
           </p>
@@ -72,7 +72,7 @@ const Home = () => (
             <img className="btn__refTech__image1" src={poker} alt="PROJET : POKER-TOOL" />
           </div>
 
-        </section>
+        </a>
       </div>
     </div>
   </div>
