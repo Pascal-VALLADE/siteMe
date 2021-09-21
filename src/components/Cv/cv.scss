@@ -1,4 +1,5 @@
 @use 'src/styles/vars' as var;
+
 // LES TYPOS
 .t1 {
   font-size: var.$font3;
@@ -211,6 +212,14 @@
 }
 
 // Présentation
+.titleCv{
+  font-size: var.$font8;
+  font-weight: bold;
+  color: #ff7b00;
+  text-align: center;
+  padding: 1rem 0px;
+}
+
 .presentationT1 {
   font-size: var.$font5;
   font-weight: bold;
@@ -247,10 +256,6 @@
 }
 
 .periode {
-  //background-image: url(http://localhost/src/assets/images/trait.png);
-  // background-image: url(./src/assets/images/trait.png);
-  // background-repeat: repeat-x;
-  // background-position: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -301,4 +306,85 @@
   margin: auto;
   background-color: var.$color4;
   border: 5px solid var.$color4;
+}
+
+@media all and (max-width: 800px){
+  .blocPage {
+    width: 100%;
+    margin: auto;
+    box-shadow: 0.5rem 0.5rem 0.5rem #5a5a5a;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto';
+  }
+  
+  .partieGauche {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .partieDroite {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    justify-content: start;
+    background-color: var.$color4;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .liste {
+    display: flex;
+    flex-direction: column;
+  
+    &__titre {
+      font-size: var.$font2;
+      font-weight: bold;
+      color: var.$color1;
+      margin: 0.5rem 0;
+      width: 100%;
+      justify-content: flex-between;
+    }
+  
+    &__col {
+      width: 100%;
+    }
+  
+    &__puce {
+      list-style: circle solid;
+      line-height: 1.8rem;
+    }
+  
+    &__puce2 {
+      list-style: circle;
+      line-height: 1.8rem;
+      margin-left: 2rem;
+    }
+  
+    &__puce2Lien{
+      list-style: circle;
+      line-height: 1.8rem;
+      margin-left: 2rem;
+      font-size: var.$font2;
+      text-decoration: underline;
+      color: var.$color2;
+    }
+  
+    &__lien {
+      width: 1rem;
+      height: 1rem;
+      border: none;
+      background-color: transparent;
+      margin:0rem;
+      padding:0rem;
+      color: var.$color3;
+    }
+    
+    &__lien:hover {
+      transform: scale(1.5);
+    }
+  }
 }

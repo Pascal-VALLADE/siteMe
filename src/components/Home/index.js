@@ -66,6 +66,9 @@ const Home = () => (
           <p className="resume">
             Poker-tool est une application conçue durant ma formation de "Déloppeur Web Fullstack". Elle s'adresse à tous ceux recherchant un outil afin de gérer un tournoi entre amis.
           </p>
+          <p className="resume">
+            Attention : cette application n'a pas pour objectif d'être responsive.
+          </p>
           <div className="btn__refTech">
             <img className="btn__refTech__image2" src={redux} alt="logo_redux" />
             <img className="btn__refTech__image2" src={postgres} alt="logo_postgres" />
