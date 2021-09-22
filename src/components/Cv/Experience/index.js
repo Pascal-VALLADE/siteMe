@@ -4,6 +4,25 @@ import 'src/components/Cv/cv.scss';
 const Experience = () => (
   <div>
     <p className="experienceTitre">EXPERIENCES PROFESSIONNELLES</p>
+     {/* CGI */}
+     <div className="acticle">
+      <div className="periode">
+        <div className="periode_date">01/2021</div>
+        <div className="trait">
+          <div className="periode_dureeLongue">( 8 mois )</div>
+        </div>
+        <div className="periode_date">09/2021</div>
+      </div>
+      <p className="t5">FORMATION DÉVELOPPEUR FULLSTACK JavaSript</p>
+      <div className="liste">
+        <p className="liste__titre">Spécialisation Réact</p>
+      </div>
+      <p className="t6">
+        <a className="t4__lien" href="https://oclock.io/formations/developpeur-web-fullstack-javascript" target="_blank" rel="noreferrer">O'Clock</a>
+        <span className="t4"> - CENTRE DE FORMATION EN TELEPRESENTIEL</span>
+      </p>
+    </div>
+
       {/* CGI */}
       <div className="acticle">
       <div className="periode">
