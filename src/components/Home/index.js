@@ -35,7 +35,7 @@ const Home = () => (
             MON PARCOURS PROFESSIONNEL
           </p>
           <p className="resume">
-            Aprés une belle carrière dans l'expertise fonctionnelle applicative, je me consacre désormais au développement web. Mes motivations restent identiques : proposer un service de qualité aux utilisateurs.
+            Après une belle carrière dans l'expertise fonctionnelle applicative, je me consacre désormais au développement web. Mes motivations restent identiques : proposer un service de qualité aux utilisateurs.
           </p>
           <div className="btn__refTech">
             <img className="btn__refTech__image2" src={react} alt="logo_réact" />

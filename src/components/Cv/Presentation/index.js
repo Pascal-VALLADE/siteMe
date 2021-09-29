@@ -12,7 +12,7 @@ const Presentation = () => (
     <p className="t4">«J’œuvre dans l’objectif d’accompagner les utilisateurs en leur apportant des services de qualité dans une relation apaisée. Ecouter, analyser et accompagner : des savoir-faire qui garantissent ma réussite. Désormais je mets en pratique cette orientation professionnelle dans la conception des outils web.»</p>
     <p>
       <img className="contactImg" src={linkedin} alt="linkedin" />
-      <a className="titreLien__texteLien" href="https://www.linkedin.com" target="_blank"> www.linkedin.com/in/pascal-vallade</a>
+      <a className="titreLien__texteLien" href="https://www.linkedin.com/in/pascalvallade/" target="_blank"> https://www.linkedin.com/in/pascalvallade/</a>
     </p>
     <br />
     <p>

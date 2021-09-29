@@ -4,7 +4,7 @@ import 'src/components/Cv/cv.scss';
 const Experience = () => (
   <div>
     <p className="experienceTitre">EXPERIENCES PROFESSIONNELLES</p>
-     {/* CGI */}
+     {/* O'CLOCK */}
      <div className="acticle">
       <div className="periode">
         <div className="periode_date">01/2021</div>
@@ -24,7 +24,7 @@ const Experience = () => (
     </div>
 
       {/* CGI */}
-      <div className="acticle">
+      {/* <div className="acticle">
       <div className="periode">
         <div className="periode_date">09/2019</div>
         <div className="trait">
@@ -50,7 +50,7 @@ const Experience = () => (
         <a className="t4__lien" href="https://www.cgi.com/france/fr-fr/secteur-public/grand-angle" target="_blank" rel="noreferrer">CGI</a>
         <span className="t4"> - EDITEUR DE LOGICIELS - BORDEAUX</span>
       </p>
-    </div>
+    </div> */}
 
     {/* VIVATICKET */}
     <div className="acticle">
