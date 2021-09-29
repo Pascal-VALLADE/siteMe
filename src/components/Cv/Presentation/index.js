@@ -9,7 +9,7 @@ const Presentation = () => (
     <p className="presentationImg"><img src={photo} alt="pascal vallade" /></p>
     <p className="presentationT1">Pascal VALLADE</p>
     <p className="presentationT2">Né le : 28 mai 1971 (50 ans)</p>
-    <p className="t4">«J’œuvre dans l’objectif d’accompagner les utilisateurs en leur apportant des services de qualité dans une relation apaisée. Ecouter, analyser et accompagner : des savoir-faire qui garantissent ma réussite. Désormais je mets en pratique cette orientation professionnelle dans la conception des outils web.»</p>
+    <p className="t4">«Après une belle carrière dans l'expertise fonctionnelle applicative, je me consacre désormais au développement web. Mes motivations restent identiques : proposer un service de qualité aux utilisateurs.»</p>
     <p>
       <img className="contactImg" src={linkedin} alt="linkedin" />
       <a className="titreLien__texteLien" href="https://www.linkedin.com/in/pascalvallade/" target="_blank"> https://www.linkedin.com/in/pascalvallade/</a>
