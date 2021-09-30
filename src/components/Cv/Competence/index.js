@@ -9,9 +9,10 @@ const Competence = () => (
         <p className="liste__titre">Technologies Web</p>
         <li className="liste__puce">CSS3, HTML5, Sass, jQuery</li>
         <li className="liste__puce">Javascript</li>
-        <li className="liste__puce">Node.js, Express</li>
-        <li className="liste__puce">MySQL, PostGres, Sequelize</li>
         <li className="liste__puce">Réact, Redux</li>
+        <li className="liste__puce">Node.js, Express JS</li>
+        <li className="liste__puce">MySQL, PostGres, Sequelize</li>
+        <li className="liste__puce">Babel, Webpack</li>
       </div>
       <div className="liste__col">
         <p className="liste__titre">Outils</p>
