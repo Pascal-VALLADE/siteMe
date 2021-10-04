@@ -102,10 +102,11 @@
 
   &__refTech {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: auto 0;
     flex-wrap: wrap;
+    
 
     &__image1 {
       display: flex;
