@@ -6,8 +6,9 @@ const Formation = () => (
     <p className="t1 soulignage">Formations</p>
     <div>
       <li className="liste__titre">
-        2021 : Formation développeur fullstack JS
+        2021 : Titre Professionnel Développeur web
       </li>
+      <li className="liste__puce2">Formation développeur fullstack Javascript</li>
       <li className="liste__puce2">Niveau III - BAC + 2</li>
       <li className="liste__puce2">Spécialisation FrontEnd : Réact</li>
       <li className="liste__puce2Lien">
