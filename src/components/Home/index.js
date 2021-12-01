@@ -1,16 +1,12 @@
 import React from 'react';
-import 'src/components/Home/home.scss';
-import personnalite from 'src/components/Home/images/personnality.png';
-import poker from 'src/components/Home/images/logo_noir.svg';
-import parcours from 'src/components/Home/images/parcours.png';
-import react from 'src/components/Home/images/react.png';
-import html from 'src/components/Home/images/html.svg';
-import css from 'src/components/Home/images/CSS.svg';
-import sass from 'src/components/Home/images/sass.svg';
-import redux from 'src/components/Home/images/redux.png';
-import postgres from 'src/components/Home/images/postgres.png';
-import js from 'src/components/Home/images/js.png';
-import nodejs from 'src/components/Home/images/Nodejs.png';
+import 'src/styles/home.scss';
+import react from 'src/assets/images/react.png';
+import html from 'src/assets/images/html.svg';
+import css from 'src/assets/images/CSS.svg';
+import sass from 'src/assets/images/sass.svg';
+import postgres from 'src/assets/images/postgres.png';
+import js from 'src/assets/images/js.png';
+import nodejs from 'src/assets/images/Nodejs.png';
 
 const Home = () => (
   <div className="containerBtn">
