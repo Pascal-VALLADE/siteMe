@@ -8,6 +8,9 @@
   max-height: 100vh;
   max-width: 100vw;
   color: white;
+  background-image: url('src/components/Home/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mainPresentation {
@@ -20,12 +23,14 @@
   display: flex;
   flex-direction: row;
   padding: 1rem;
-  background-color: rgb(255, 255, 255);
-  border-top: 5px solid var.$color3;
+  background-color: var.$color8;
+  border-top: 5px solid var.$color8;
+  border-bottom: 5px solid var.$color8;
   width: 100%;
   height: 10rem;
   justify-content: center;
   align-items: center;
+  opacity: 0.8;
 
   &__centre {
     display: flex;
@@ -42,7 +47,7 @@
     &__nom {
       font-size: var.$font9;
       font-family: 'Condiment', cursive;
-      color: rgb(73, 73, 73);
+      color: rgb(255, 255, 255);
       font-weight: bold;
       font-style: italic;
       letter-spacing: 5px;
@@ -52,7 +57,7 @@
 
     &__metier {
       font-size: var.$font6;
-      color: rgb(134, 134, 134);
+      color: var.$color5;
       margin-top: 0.5rem;
       text-align: right;
       margin-bottom: 1rem;
@@ -66,7 +71,7 @@
     flex-direction: row;
     font-style: italic;
     font-size: var.$font5;
-    color: var.$color6;
+    color: var.$color5;
     justify-content: space-between;
     font-family: 'Condiment', cursive;
     letter-spacing: 5px;
@@ -81,10 +86,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  //align-items: center;
   padding: 1rem 0;
   width: 100%;
   height: 100%;
-  background-color: var.$color6;
+  //background-color: var.$color8;
 }
 
 .btn {
@@ -97,8 +103,9 @@
   max-height: 100%;
   overflow-y: auto;
   color: white;
-  padding: 1rem;
+  padding: 2rem 1rem;
   transition: all 0.5s ease-out;
+  justify-content: flex-end;
 
   &__refTech {
     display: flex;
@@ -106,7 +113,7 @@
     align-items: center;
     margin: auto 0;
     flex-wrap: wrap;
-    
+ 
 
     &__image1 {
       display: flex;
@@ -120,7 +127,7 @@
 
     &__image2 {
       display: none;
-      width: 0%;
+      max-width: 50%;
     }
   }
 }
@@ -128,8 +135,8 @@
 .btn:hover {
   border: 1px solid var.$color4;
   border-radius: 5px;
-  color: var.$color4;
-  background-color: rgba(255, 255, 255, 0.2);
+  color: var.$color5;
+  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 0px 0px 10px 10px rgba(27, 27, 27, 0.2);
   transform: scale(1);
   margin: 1rem;
@@ -148,17 +155,22 @@
   justify-content: space-around;
 }
 
+.btn:hover .resume {
+  color: var.$color4;
+}
+
+.btn:hover .titre {
+  color: var.$color5;
+}
+
 .titre {
   display: flex;
   width: 100%;
   padding: 1rem;
-
   text-align: center;
   justify-content: center;
   align-items: center;
-
   border-bottom: 1px solid white;
-
   line-height: 1.5rem;
   font-family: 'Condiment', cursive;
   letter-spacing: 4px;
@@ -171,6 +183,7 @@
   font-size: var.$font2;
   line-height: 1.1rem;
   font-family: poppins;
+  color: var.$color5;
   margin: 1rem;
   align-items: flex-start;
   text-align: justify;

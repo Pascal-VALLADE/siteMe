@@ -103,7 +103,7 @@
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
-  justify-content: start;
+  justify-content: flex-start;
   background-color: var.$color4;
   width: 55%;
   padding: 2rem;
@@ -119,7 +119,7 @@
     color: var.$color1;
     margin: 0.5rem 0;
     width: 100%;
-    justify-content: flex-between;
+    justify-content: space-between;
   }
 
   &__col {
@@ -171,7 +171,7 @@
 .titreLien {
   display: flex;
   flex-direction: row;
-  justify-content: flex-between;
+  justify-content: space-between;
   width: 100%;
   align-items: center;
   margin: 1rem 0 1rem 0;
@@ -357,7 +357,7 @@
       color: var.$color1;
       margin: 0.5rem 0;
       width: 100%;
-      justify-content: flex-between;
+      justify-content: space-between;
     }
   
     &__col {
