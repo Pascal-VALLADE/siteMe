@@ -1,35 +1,31 @@
 import React from 'react';
-import 'src/components/Home/home.scss';
-import personnalite from 'src/assets/images/personnalite.png';
-import poker from 'src/components/Home/images/poker.png';
-import parcours from 'src/components/Home/images/parcours.png';
-import react from 'src/components/Home/images/react.svg';
-import html from 'src/components/Home/images/html.svg';
-import css from 'src/components/Home/images/CSS.svg';
-import sass from 'src/components/Home/images/sass.svg';
-import redux from 'src/components/Home/images/redux.png';
-import postgres from 'src/components/Home/images/postgres.svg';
-import js from 'src/components/Home/images/js.png';
-import nodejs from 'src/components/Home/images/Nodejs.png';
+import 'src/styles/home.scss';
+import react from 'src/assets/images/react.png';
+import html from 'src/assets/images/html.svg';
+import css from 'src/assets/images/CSS.svg';
+import sass from 'src/assets/images/sass.svg';
+import postgres from 'src/assets/images/postgres.png';
+import js from 'src/assets/images/js.png';
+import nodejs from 'src/assets/images/Nodejs.png';
 
 const Home = () => (
   <div className="containerBtn">
     <a className="btn" href="/cv" target="_blank">
-      <p className="titre">MON PARCOURS PROFESSIONNEL</p>
-      <p className="resume">
-        Après une belle carrière dans l'expertise fonctionnelle applicative, je
-        me consacre désormais au développement web. Mes motivations restent
-        identiques : proposer un service de qualité aux utilisateurs.
-      </p>
+      <div className="btn__txt">
+        <p className="btn__txt__titre">MON PARCOURS...</p>
+        <p className="btn__txt__resume">
+          Après une belle carrière dans l'expertise fonctionnelle applicative, je
+          me consacre désormais au développement web. Mes motivations restent
+          identiques : proposer un service de qualité aux utilisateurs.
+        </p>
+      </div>
       <div className="btn__refTech">
-        <img className="btn__refTech__image2" src={js} alt="logo_js" />
-        <img className="btn__refTech__image2" src={react} alt="logo_réact" />
-        <img className="btn__refTech__image2" src={sass} alt="logo_sass" />
-        <img
-          className="btn__refTech__image1"
-          src={parcours}
-          alt="MON PARCOURS PROFESSIONNEL"
-        />
+        <fieldset className="btn__refTech__fieldSet">
+          <legend className="btn__refTech__fieldSet__legend">Stack technique</legend>
+          <img className="btn__refTech__fieldSet__image" src={js} alt="logo_js" />
+          <img className="btn__refTech__fieldSet__image" src={react} alt="logo_réact" />
+          <img className="btn__refTech__fieldSet__image" src={sass} alt="logo_sass" />
+        </fieldset>
       </div>
     </a>
 
@@ -39,39 +35,46 @@ const Home = () => (
       target="_blank"
       rel="noreferrer"
     >
-      <p className="titre">MAIS QUI SUIS-JE ?</p>
-      <p className="resume">
-        Vous souhaitez en apprendre davantage sur ma personnalié ? Je vous
-        invite à consulter ce graphe intéractif.
-      </p>
-      <div className="btn__refTech">
-        <img className="btn__refTech__image2" src={html} alt="logo_html" />
-        <img className="btn__refTech__image2" src={css} alt="logo_css" />
-        <img
-          className="btn__refTech__image1"
-          src={personnalite}
-          alt="Qui suis-je ?"
-        />
+      <div className="btn__txt">
+        <p className="btn__txt__titre">MAIS QUI SUIS-JE ?</p>
+        <p className="btn__txt__resume">
+          Vous souhaitez en apprendre davantage sur ma personnalié ? Je vous
+          invite à consulter ce graphe intéractif.
+        </p>
       </div>
+
+      <div className="btn__refTech">
+        <fieldset className="btn__refTech__fieldSet">
+          <legend className="btn__refTech__fieldSet__legend">Stack technique</legend>
+          <img className="btn__refTech__fieldSet__image" src={html} alt="logo_html" />
+          <img className="btn__refTech__fieldSet__image" src={css} alt="logo_css" />
+        </fieldset>
+      </div>
+
     </a>
 
     <a className="btn" href="https://pokertool.herokuapp.com/" target="_blank" rel="noreferrer">
-      <p className="titre">PROJET : POKER-TOOL</p>
-      <p className="resume">
-        Poker-tool est une application conçue durant ma formation de "Déloppeur
-        Web Fullstack". Elle s'adresse à tous ceux recherchant un outil afin de
-        gérer un tournoi entre amis.
-      </p>
-      <p className="resume">
-        Attention : cette application n'a pas pour objectif d'être responsive.
-      </p>
+      <div className="btn__txt">
+        <p className="btn__txt__titre">PROJET : POKER-TOOL</p>
+        <p className="btn__txt__resume">
+          Poker-tool est une application conçue durant ma formation de "Déloppeur
+          Web Fullstack". Elle s'adresse à tous ceux recherchant un outil afin de
+          gérer un tournoi entre amis.
+        </p>
+        <p className="btn__txt__resume">
+          Attention : cette application n'a pas pour objectif d'être responsive.
+        </p>
+      </div>
+
       <div className="btn__refTech">
-        <img className="btn__refTech__image2" src={js} alt="logo_js" />
-        <img className="btn__refTech__image2" src={react} alt="logo_réact" />
-        <img className="btn__refTech__image2" src={redux} alt="logo_redux" />
-        <img className="btn__refTech__image2" src={nodejs} alt="logo_nodejs" />
-        <img className="btn__refTech__image2" src={postgres} alt="logo_postgres" />
-        <img className="btn__refTech__image1" src={poker} alt="PROJET : POKER-TOOL" />
+        <fieldset className="btn__refTech__fieldSet">
+          <legend className="btn__refTech__fieldSet__legend">Stack technique</legend>
+          <img className="btn__refTech__fieldSet__image" src={js} alt="logo_js" />
+          <img className="btn__refTech__fieldSet__image" src={react} alt="logo_réact" />
+          <img className="btn__refTech__fieldSet__image" src={postgres} alt="logo_postgres" />
+          <img className="btn__refTech__fieldSet__image" src={nodejs} alt="logo_nodejs" />
+        </fieldset>
+        {/* <img className="btn__refTech__image2" src={redux} alt="logo_redux" /> */}
       </div>
     </a>
   </div>

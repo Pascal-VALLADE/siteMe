@@ -1,6 +1,6 @@
 import React from 'react';
-import 'src/components/Home/home.scss';
-import pascal from 'src/components/Home/images/pascal_Color.png';
+import 'src/styles/home.scss';
+import pascal from 'src/assets/images/pascal_Color.png';
 
 const Header = () => (
   <div className="mainPresentation">

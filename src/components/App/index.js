@@ -4,9 +4,10 @@ import Cv from 'src/components/Cv';
 import Home from 'src/components/Home';
 import Header from 'src/components/Home/Header';
 import './app.scss';
+import toto from 'src/assets/images/background.jpg';
 
 const App = () => (
-  <div className="mainHome">
+  <div className="mainHome" style={{ backgroundImage: `url(${toto})` }}>
     <Switch>
       <Route exact path="/">
         <Header />
