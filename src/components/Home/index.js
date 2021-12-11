@@ -1,6 +1,7 @@
 import React from 'react';
 import 'src/styles/home.scss';
 import react from 'src/assets/images/react.png';
+import redux from 'src/assets/images/react_redux.png';
 import html from 'src/assets/images/html.svg';
 import css from 'src/assets/images/CSS.svg';
 import sass from 'src/assets/images/sass.svg';
@@ -70,7 +71,7 @@ const Home = () => (
         <fieldset className="btn__refTech__fieldSet">
           <legend className="btn__refTech__fieldSet__legend">Stack technique</legend>
           <img className="btn__refTech__fieldSet__image" src={js} alt="logo_js" />
-          <img className="btn__refTech__fieldSet__image" src={react} alt="logo_réact" />
+          <img className="btn__refTech__fieldSet__image" src={redux} alt="logo_réact" />
           <img className="btn__refTech__fieldSet__image" src={postgres} alt="logo_postgres" />
           <img className="btn__refTech__fieldSet__image" src={nodejs} alt="logo_nodejs" />
         </fieldset>
