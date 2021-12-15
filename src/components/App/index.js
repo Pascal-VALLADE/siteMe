@@ -4,7 +4,7 @@ import Cv from 'src/components/Cv';
 import Home from 'src/components/Home';
 import Header from 'src/components/Home/Header';
 import './app.scss';
-import toto from 'src/assets/images/background.jpg';
+import toto from 'src/assets/images/background_opt.jpg';
 
 const App = () => (
   <div className="mainHome" style={{ backgroundImage: `url(${toto})` }}>
