@@ -14,11 +14,37 @@ const Home = () => (
     <a className="btn" href="/cv" target="_blank">
       <div className="btn__txt">
         <p className="btn__txt__titre">MON PARCOURS...</p>
-        <p className="btn__txt__resume">
-          Après une belle carrière dans l'expertise fonctionnelle applicative, je
-          me consacre désormais au développement web. Mes motivations restent
-          identiques : proposer un service de qualité aux utilisateurs.
-        </p>
+        <div className="btn__txt__resume">
+          <div>
+            <p className="txtBold">Mon carburant</p>
+            <p>la qualité du service client chevillée au corps !</p>
+          </div>
+          <br />
+          <div className="txtBold">Mes compétences
+            <div className="list">
+              <p className="list__left">écouter : &nbsp;</p>
+              <p className="list__right">définition du besoin</p>
+            </div>
+            <div className="list">
+              <p className="list__left">transmettre : &nbsp;</p>
+              <p className="list__right">cahier des charges</p>
+            </div>
+            <div className="list">
+              <p className="list__left">concevoir : &nbsp;</p>
+              <p className="list__right">développement web</p>
+            </div>
+            <div className="list">
+              <p className="list__left">accompagner : &nbsp;</p>
+              <p className="list__right">formation</p>
+            </div>
+            <div className="list">
+              <p className="list__left">maintenir : &nbsp;</p>
+              <p className="list__right">assistance utilisateurs</p>
+            </div>
+          </div>
+          <br />
+          {/* <p className="txtFinal">Le coteau suisse du domaine applicatif !</p> */}
+        </div>
       </div>
       <div className="btn__refTech">
         <fieldset className="btn__refTech__fieldSet">

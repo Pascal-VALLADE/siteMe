@@ -42,6 +42,8 @@
     display: flex;
     flex-direction: column;
     width: 45%;
+    justify-content: space-between;
+    height: 100%;
 
     &__nom {
       font-size: var.$font9;
@@ -54,29 +56,36 @@
       margin-top: 1rem;
     }
 
-    &__metier {
-      font-size: var.$font6;
+    &__slogan {
+      font-size: var.$font4;
+      font-family: 'Condiment', cursive;
       color: var.$color5;
-      margin-top: 0.5rem;
-      text-align: right;
-      margin-bottom: 1rem;
-      font-family: poppins;
       font-weight: bold;
+      font-style: italic;
+      letter-spacing: 5px;
+      text-align: right;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
   }
 
   &__droite {
     display: flex;
-    flex-direction: row;
-    font-style: italic;
-    font-size: var.$font5;
-    color: var.$color5;
-    justify-content: space-between;
-    font-family: 'Condiment', cursive;
-    letter-spacing: 5px;
+    flex-direction: column;
     width: 45%;
-    align-self: center;
-    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+    &__metier {
+      font-size: var.$font6;
+      color: var.$color5;
+      margin-top: 0.5rem;
+      text-align: left;
+      margin-bottom: 1rem;
+      font-family: poppins;
+      font-weight: bold;
+    }
+    
   }
 }
 
@@ -86,7 +95,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 4rem 0;
+  padding: 3rem 0;
   width: 100%;
   height: 100%;
 }
@@ -99,7 +108,7 @@
   max-width: 60%;
   height: 100%;
   cursor: pointer;
-  padding: 1rem 1rem;
+  padding: 0.5rem;
   transition: all 0.5s ease-out;
   overflow: hidden;
 
@@ -163,9 +172,34 @@
       line-height: 1.1rem;
       font-family: poppins;
       color: var.$color5;
-      margin: 1rem;
+      margin-top: 1rem;
       text-align: center;
+      width: 100%;
     }
+  }
+}
+
+.txtBold {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  font-weight: normal;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0.2rem;
+
+  &__left {
+    text-align: right;
+    width: 50%;
+  }
+
+  &__right {
+    text-align: left;
+    width: 50%;
   }
 }
 

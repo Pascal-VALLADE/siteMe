@@ -9,14 +9,19 @@ const Header = () => (
         <p className="presentation__gauche__nom">
           Pascal VALLADE
         </p>
-        <p className="presentation__gauche__metier">
-          Développeur WEB FullStack JS
+        <p className="presentation__gauche__slogan">
+          "Positionner l'utilisateur au coeur des projets."
         </p>
       </div>
       <img className="presentation__centre" src={pascal} alt="pascal" />
-      <p className="presentation__droite">
-        "Positionner l'utilisateur au coeur des projets."
-      </p>
+      <div className="presentation__droite">
+        <p className="presentation__droite__metier">
+          Développeur WEB FullStack JS
+        </p>
+        <p className="presentation__droite__metier">
+          Consultant fonctionnel
+        </p>
+      </div>
     </div>
   </div>
 );
